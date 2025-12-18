@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-/* fetch("https://jsonplaceholder.typicode.com/users")
+fetch("https://jsonplaceholder.typicode.com/users")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
@@ -26,4 +26,4 @@ searchInput.addEventListener("input", e => {
       userCardContainer.append(card)
       return { name: user.name, email: user.email, element: card }
     })
-  }) */
+  })
