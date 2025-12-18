@@ -26,4 +26,4 @@ searchInput.addEventListener("input", e => {
       userCardContainer.append(card)
       return { name: user.name, email: user.email, element: card }
     })
-  })
+  }) */
